@@ -39,7 +39,7 @@ def filter_students(students, filter_function, *args):
 
 
 if __name__ == '__main__':
-    students = [
+    demo_students = [
         {'name': 'Alice', 'age': 15, 'class': '10A'},
         {'name': 'Bob', 'age': 16, 'class': '10B'},
         {'name': 'Charlie', 'age': 14, 'class': '9A'},
