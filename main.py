@@ -1,3 +1,8 @@
+"""Datenfilterung.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu03/aufgaben/filter
+"""
+
 def filter_by_age(students, min_age):
     result = []
     for student in students:
@@ -19,14 +24,14 @@ def filter_students(students, filter_function, *args):
 
 
 if __name__ == '__main__':
-    students = [
+    demo_students = [
         {'name': 'Alice', 'age': 15, 'class': '10A'},
         {'name': 'Bob', 'age': 16, 'class': '10B'},
         {'name': 'Charlie', 'age': 14, 'class': '9A'},
     ]
 
-    filtered_by_age = filter_students(students, filter_by_age, 15)
+    filtered_by_age = filter_students(demo_students, filter_by_age, 15)
     print('Filtered by age:', filtered_by_age)
 
-    filtered_by_class = filter_students(students, filter_by_class, '10A')
+    filtered_by_class = filter_students(demo_students, filter_by_class, '10A')
     print('Filtered by class:', filtered_by_class)
