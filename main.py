@@ -1,3 +1,8 @@
+"""Datenfilterung.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu03/aufgaben/filter
+"""
+
 def filter_by_age(students, age):
     """
     Filtert die Studentenliste nach einem gegebenen Mindestalter.
